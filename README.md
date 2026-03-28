@@ -2,56 +2,82 @@
 
 ## Overview
 
-This is a beginner machine learning project that predicts whether a student will **PASS or FAIL** based on two factors:
+This project predicts whether a student will **PASS or FAIL** based on two factors:
 
 * Study hours per day
 * Attendance percentage
 
-The project demonstrates a basic machine learning workflow using a **Decision Tree classifier**.
+The model is built using a **Decision Tree classifier**.
 
-## Problem Statement
+---
 
-Students often want to know whether their current study habits are sufficient to pass an exam. This project uses simple academic indicators to predict exam outcomes and demonstrate how machine learning can be applied to educational data.
+## Project Structure
 
-## Technologies Used
+student-exam-result-predictor
+│
+├── main.py (Main Python program)
+├── dataset.csv (Training dataset)             
+└── README.md (Project documentation)
 
-* Python
-* Pandas
-* Scikit-learn
+---
 
-## Machine Learning Algorithm
+## Prerequisites
 
-Decision Tree Classifier
+Before running the project, ensure the following are installed:
 
-## Dataset
+* Python (version 3.8 or later)
+* pip (Python package installer)
 
-The dataset contains sample records with the following fields:
+You can download Python from the official website.
 
-* study_hours
-* attendance
-* result (Pass or Fail)
+---
 
-Example:
+## Step 1: Clone or Download the Repository
 
-study_hours,attendance,result
-1,40,Fail
-5,70,Pass
+Option 1 – Clone using Git
 
-## How to Run the Project
+git clone https://github.com/maliniarvind/Student-exam-result-predictor.git
 
-1. Install required libraries
+Option 2 – Download ZIP
+Download the repository from GitHub and extract it.
 
-python -m pip install pandas scikit-learn
+---
 
-2. Navigate to the project folder
+## Step 2: Navigate to the Project Folder
 
-cd AI_Project
+Open terminal or command prompt and go to the project directory:
 
-3. Run the program
+cd Student-exam-result-predictor
+
+---
+
+## Step 3: Install Required Dependencies
+
+Install the required Python libraries:
+
+pip install pandas scikit-learn
+
+Libraries used:
+
+* pandas (for data handling)
+* scikit-learn (for machine learning model)
+
+---
+
+## Step 4: Run the Program
+
+Execute the Python script:
 
 python main.py
 
-4. Enter the inputs when prompted.
+---
+
+## Step 5: Provide Input Values
+
+The program will ask for:
+
+Enter study hours per day
+Enter attendance percentage
 
 Example:
 
@@ -62,22 +88,44 @@ Output:
 
 Predicted Result: Pass
 
-## Learning Outcomes
+---
 
-This project demonstrates:
+## Dataset Description
 
-* Loading datasets using Pandas
-* Training a machine learning model
-* Making predictions with Scikit-learn
-* Basic AI/ML project structure
+The dataset contains student records with:
+
+* study_hours
+* attendance
+* result (Pass or Fail)
+
+Example:
+
+study_hours,attendance,result
+1,40,Fail
+3,60,Fail
+5,70,Pass
+7,80,Pass
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* Scikit-learn
+* Decision Tree Classifier
+
+---
 
 ## Future Improvements
 
 * Use a larger dataset
-* Add graphical visualization
-* Improve prediction accuracy
+* Add visualization
 * Deploy as a web application
 
-## Author
+---
+
+## Author 
+MALINI ARVIND
 
 Malini Arvind
