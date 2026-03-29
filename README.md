@@ -126,6 +126,7 @@ study_hours,attendance,result
 ---
 
 ## Author 
-MALINI ARVIND
-
 Malini Arvind
+
+MALINI ARVIND
+Malini Arvin
