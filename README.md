@@ -129,4 +129,3 @@ study_hours,attendance,result
 Malini Arvind
 
 MALINI ARVIND
-Malini Arvin
