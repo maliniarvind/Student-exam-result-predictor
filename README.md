@@ -107,7 +107,6 @@ study_hours,attendance,result
 7,80,Pass
 
 ---
-
 ## Technologies Used
 
 * Python
